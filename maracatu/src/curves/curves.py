@@ -14,6 +14,9 @@ from maracatu.src.base.plot_base import PlotBase
 
 
 class Curves(PlotBase):
+    '''
+
+    '''
 
     def __init__(self):
         super().__init__()
@@ -23,6 +26,15 @@ class Curves(PlotBase):
         return par_plot
 
     def plot(self, data, par_plot=None, fig=None, ax=None, **kwargs):
+        '''
+        plot() -> fig, ax, par_plot
+        :param data:
+        :param par_plot:
+        :param fig:
+        :param ax:
+        :param kwargs:
+        :return:
+        '''
         fig, ax, par_plot = super().plot(data, par_plot, fig, ax)
 
         if not isinstance(data, list):
@@ -53,6 +65,9 @@ class Curves(PlotBase):
         self.configure_fig(fig, par_plot)
 
         return fig, ax, par_plot
+
+
+
 #
 #
 # class CurvesDataFrame(Curves):
