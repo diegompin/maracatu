@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='maracatu',
-    version="1.0.0",
+    version="1.0.3",
     author="Diego Pinheiro",
     author_email="diegompin@gmail.com",
     description="Maracatu is a plotting package",

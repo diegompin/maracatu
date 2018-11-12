@@ -52,7 +52,7 @@ class Curves(PlotBase):
             par_linestyle = self.get_par(par_plot, 'linestyle', '-')
             par_alpha = self.get_par(par_plot, 'alpha', .8)
 
-            ax.plot(df['x'], df['y'],
+            ax.plot(df['X'], df['Y'],
                     linewidth=par_linewidth,
                     linestyle=par_linestyle,
                     alpha=par_alpha,
