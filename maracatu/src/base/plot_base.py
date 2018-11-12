@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # mpl.rc_params
 # figure.max_open_warning
 
-from maracatu.src.util.parameters import Parameter
+from maracatu.src.base.parameters import Parameter
 
 
 class PlotBase(object):
