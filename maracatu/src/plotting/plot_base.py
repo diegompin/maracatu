@@ -22,7 +22,9 @@ class PlotBase(object):
 
     markers = ['D', 'o', 'x','s', '^', 'd', 'h', '+', '*', ',', '.', '1', 'p', '3', '2', '4', 'H', 'v', '8',
                '<', '>']
-    colors = ['g', 'y', 'r', 'b', 'k', 'm', 'c']
+    # colors = ['g', 'y', 'r', 'b', 'k', 'm', 'c']\
+
+    colors = ['#1f77b4', '#ff7f0e',  '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
 
     def get_fig_ax(self):
         pass
@@ -82,6 +84,7 @@ class PlotBase(object):
         if par_legend:
             par_loc = self.get_par(par_plot, 'legend.loc')
             par_fontsize = self.get_par(par_plot, 'legend.fontsize', default=12)
+            #TODO allow font size
             par_legent_title = self.get_par(par_plot, 'legend.title')
             ax.legend(title=par_legent_title, loc=par_loc, fontsize=par_fontsize)
 
