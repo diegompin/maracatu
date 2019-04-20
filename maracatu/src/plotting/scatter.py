@@ -4,7 +4,7 @@ github: https://github.com/diegompin
 
 """
 
-from maracatu.src.base.plot_base import PlotBase
+from maracatu.src.plotting.plot_base import PlotBase
 # from dataintensive.src import BinsDataFrame
 # from dataintensive.src import Parameter
 # from dataintensive.src import Correlation

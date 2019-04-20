@@ -4,7 +4,7 @@ github: https://github.com/diegompin
 
 """
 import numpy as np
-from src.util.parameters import Parameter
+from maracatu.src.base.parameters import Parameter
 
 
 class BinsFactory(object):

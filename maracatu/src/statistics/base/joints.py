@@ -7,9 +7,10 @@ github: https://github.com/diegompin
 import pandas as pd
 import numpy as np
 
-from src.statistics.base.confidence_inverval import ConfidenceInterval
-from src.statistics.base.correlation import Correlation
+from maracatu.src.statistics.base.confidence_inverval import ConfidenceInterval
+from maracatu.src.statistics.base.correlation import Correlation
 import multiprocessing
+
 
 class Joint:
 

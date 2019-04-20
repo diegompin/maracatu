@@ -5,7 +5,7 @@ github: https://github.com/diegompin
 """
 
 from itertools import cycle
-from maracatu.src.base.plot_base import PlotBase
+from maracatu.src.plotting.plot_base import PlotBase
 # import pandas as pd
 # from dataintensive.src import Joint
 # from dataintensive.src import BinsDataFrame

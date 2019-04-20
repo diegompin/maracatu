@@ -3,8 +3,10 @@ __email__ = 'diegompin@gmail.com'
 __github__ = 'https://github.com/diegompin'
 
 
-from maracatu.src.base.plot_base import PlotBase
+import numpy as np
+from maracatu.src.plotting.plot_base import PlotBase
 from maracatu.src.base.parameters import Parameter
+from maracatu.src.statistics.base.joints import Joint
 
 
 class Heatmap(PlotBase):

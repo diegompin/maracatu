@@ -4,9 +4,8 @@ github: https://github.com/diegompin
 
 """
 import numpy as np
-import pandas as pd
 
-from maracatu.src.base.plot_base import PlotBase
+from maracatu.src.plotting.plot_base import PlotBase
 from itertools import cycle
 
 
